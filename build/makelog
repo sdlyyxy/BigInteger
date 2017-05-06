@@ -1,0 +1,115 @@
+/root/project/BigInteger/lib/UBigInteger.cpp:9:1: error: 'UBigInteger' does not name a type
+ UBigInteger::UBigInteger(LL num=0){
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:12:1: error: 'UBigInteger' does not name a type
+ UBigInteger::UBigInteger(const string &num){
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:15:1: error: 'UBigInteger' does not name a type
+ UBigInteger UBigInteger::operator = (LL num){
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:23:1: error: 'UBigInteger' does not name a type
+ UBigInteger operator = (const string &num){
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:35:1: error: 'friend' used outside of class
+ friend UBigInteger operator + (const UBigInteger &b) const{
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:35:8: error: 'UBigInteger' does not name a type
+ friend UBigInteger operator + (const UBigInteger &b) const{
+        ^
+/root/project/BigInteger/lib/UBigInteger.cpp:46:1: error: 'friend' used outside of class
+ friend UBigInteger operator += (const UBigInteger &b){
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:46:8: error: 'UBigInteger' does not name a type
+ friend UBigInteger operator += (const UBigInteger &b){
+        ^
+/root/project/BigInteger/lib/UBigInteger.cpp:50:1: error: 'friend' used outside of class
+ friend bool operator < (const UBigInteger &b) const {
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:50:31: error: 'UBigInteger' does not name a type
+ friend bool operator < (const UBigInteger &b) const {
+                               ^
+/root/project/BigInteger/lib/UBigInteger.cpp:50:47: error: non-member function 'bool operator<(const int&)' cannot have cv-qualifier
+ friend bool operator < (const UBigInteger &b) const {
+                                               ^
+/root/project/BigInteger/lib/UBigInteger.cpp:50:47: error: 'bool operator<(const int&)' must have an argument of class or enumerated type
+/root/project/BigInteger/lib/UBigInteger.cpp:57:1: error: 'friend' used outside of class
+ friend bool operator > (const UBigInteger &b) const {
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:57:31: error: 'UBigInteger' does not name a type
+ friend bool operator > (const UBigInteger &b) const {
+                               ^
+/root/project/BigInteger/lib/UBigInteger.cpp:57:47: error: non-member function 'bool operator>(const int&)' cannot have cv-qualifier
+ friend bool operator > (const UBigInteger &b) const {
+                                               ^
+/root/project/BigInteger/lib/UBigInteger.cpp:57:47: error: 'bool operator>(const int&)' must have an argument of class or enumerated type
+/root/project/BigInteger/lib/UBigInteger.cpp:60:1: error: 'friend' used outside of class
+ friend bool operator <= (const UBigInteger &b) const {
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:60:32: error: 'UBigInteger' does not name a type
+ friend bool operator <= (const UBigInteger &b) const {
+                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp:60:48: error: non-member function 'bool operator<=(const int&)' cannot have cv-qualifier
+ friend bool operator <= (const UBigInteger &b) const {
+                                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp:60:48: error: 'bool operator<=(const int&)' must have an argument of class or enumerated type
+/root/project/BigInteger/lib/UBigInteger.cpp:63:1: error: 'friend' used outside of class
+ friend bool operator >= (const UBigInteger &b) const {
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:63:32: error: 'UBigInteger' does not name a type
+ friend bool operator >= (const UBigInteger &b) const {
+                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp:63:48: error: non-member function 'bool operator>=(const int&)' cannot have cv-qualifier
+ friend bool operator >= (const UBigInteger &b) const {
+                                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp:63:48: error: 'bool operator>=(const int&)' must have an argument of class or enumerated type
+/root/project/BigInteger/lib/UBigInteger.cpp:66:1: error: 'friend' used outside of class
+ friend bool operator != (const UBigInteger &b) const {
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:66:32: error: 'UBigInteger' does not name a type
+ friend bool operator != (const UBigInteger &b) const {
+                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp:66:48: error: non-member function 'bool operator!=(const int&)' cannot have cv-qualifier
+ friend bool operator != (const UBigInteger &b) const {
+                                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp:66:48: error: 'bool operator!=(const int&)' must have an argument of class or enumerated type
+/root/project/BigInteger/lib/UBigInteger.cpp:69:1: error: 'friend' used outside of class
+ friend bool operator == (const UBigInteger &b) const {
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:69:32: error: 'UBigInteger' does not name a type
+ friend bool operator == (const UBigInteger &b) const {
+                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp:69:48: error: non-member function 'bool operator==(const int&)' cannot have cv-qualifier
+ friend bool operator == (const UBigInteger &b) const {
+                                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp:69:48: error: 'bool operator==(const int&)' must have an argument of class or enumerated type
+/root/project/BigInteger/lib/UBigInteger.cpp:72:1: error: 'friend' used outside of class
+ friend ostream& operator << (ostream &out,const UBigInteger &x){
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:72:49: error: 'UBigInteger' does not name a type
+ friend ostream& operator << (ostream &out,const UBigInteger &x){
+                                                 ^
+/root/project/BigInteger/lib/UBigInteger.cpp: In function 'std::ostream& operator<<(std::ostream&, const int&)':
+/root/project/BigInteger/lib/UBigInteger.cpp:73:9: error: request for member 's' in 'x', which is of non-class type 'const int'
+  out<<x.s.back();
+         ^
+/root/project/BigInteger/lib/UBigInteger.cpp:74:14: error: request for member 's' in 'x', which is of non-class type 'const int'
+  for(int i=x.s.size()-2;i>=0;i--){
+              ^
+/root/project/BigInteger/lib/UBigInteger.cpp:76:24: error: request for member 's' in 'x', which is of non-class type 'const int'
+   sprintf(buf,"%08d",x.s[i]);
+                        ^
+/root/project/BigInteger/lib/UBigInteger.cpp: At global scope:
+/root/project/BigInteger/lib/UBigInteger.cpp:81:1: error: 'friend' used outside of class
+ friend istream& operator >> (istream &in,const UBigInteger &x){
+ ^
+/root/project/BigInteger/lib/UBigInteger.cpp:81:48: error: 'UBigInteger' does not name a type
+ friend istream& operator >> (istream &in,const UBigInteger &x){
+                                                ^
+/root/project/BigInteger/lib/UBigInteger.cpp: In function 'std::istream& operator>>(std::istream&, const int&)':
+/root/project/BigInteger/lib/UBigInteger.cpp:83:12: error: assignment of read-only reference 'x'
+  if(in>>s)x=s;
+            ^
+/root/project/BigInteger/lib/UBigInteger.cpp:83:12: error: cannot convert 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}' to 'const int' in assignment
+make[2]: *** [CMakeFiles/BigInteger.dir/lib/UBigInteger.cpp.o] Error 1
+make[1]: *** [CMakeFiles/BigInteger.dir/all] Error 2
+make: *** [all] Error 2

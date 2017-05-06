@@ -1,5 +1,5 @@
-#ifndef _BIGINTEGER_H_
-#define _BIGINTEGER_H_
+#ifndef _U_BIGINTEGER_H_
+#define _U_BIGINTEGER_H_
 
 #include<vector>
 #include<iostream>
@@ -8,7 +8,7 @@ typedef long long LL;
 
 class BigInteger{
 public:
-	BigInteger(LL num);
+	BigInteger(LL num=0);
 	BigInteger(const std::string &num);
 	BigInteger operator = (LL num);
 	BigInteger operator = (const std::string &num);

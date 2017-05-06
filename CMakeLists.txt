@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project(BigInteger CXX)
+include_directories(include/)
+# aux_source_directory(lib/ DIR_LIB_SRCS)
+add_library(BigInteger lib/BigInteger.cpp)

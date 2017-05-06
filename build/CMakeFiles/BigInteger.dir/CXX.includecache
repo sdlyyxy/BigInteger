@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BigInteger.h
+vector
+-
+iostream
+-
+string
+-
+
+/root/project/BigInteger/lib/BigInteger.cpp
+BigInteger.h
+/root/project/BigInteger/lib/BigInteger.h
+vector
+-
+iostream
+-
+string
+-
+cstdio
+-
+cstring
+-
+
